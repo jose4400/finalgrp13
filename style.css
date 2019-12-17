@@ -328,7 +328,7 @@ section {
     background-image: url(img/billeder_05_content/about_01.jpg);
     background-size: cover;
     width: 65vw;
-    height: 18wh;
+    height: 18vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -342,7 +342,7 @@ section {
 /*---------News design---------*/
 
 #overskrift_news {
-    width: 100%vw;
+    width: 100%;
     height: 15vh;
     background-color: #e6e6e6;
     background-size: cover;
@@ -406,7 +406,7 @@ section {
 
 
 #overskrift_news {
-    width: 100%vw;
+    width: 100%;
     height: 15vh;
     background-color: #e6e6e6;
     background-size: cover;
