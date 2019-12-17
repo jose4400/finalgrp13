@@ -498,51 +498,67 @@ section {
 
 #books_site {
     background-image: url(img/galleribaggrund_1920x1080.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 100px;
 }
 
+.scroll {
+    /*
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+*/
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.bog {
+    padding: 1rem;
+    scroll-snap-align: center;
+
+}
+
+/*
 .book_1 {
-    background-image: url(img/books/books/katinkagoldberg.png);
-    background-size: cover;
+    background-image: url(books%2520small/bogudennavn.png) background-size: cover;
     width: 65vw;
     height: 98vw;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 1rem;
 }
 
 .book_2 {
-    background-image: url(img/books/books/bogudennavn.png);
+    background-image: url(books%2520small/cyclops.png);
     background-size: cover;
     width: 65vw;
     height: 43vw;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 1rem;
 }
 
 .book_3 {
-    background-image: url(img/books/books/cyclops.png);
+    background-image: url(books%2520small/itch.png);
     background-size: cover;
     width: 65vw;
     height: 98vw;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 1rem;
 }
 
 .book_4 {
-    background-image: url(img/books/books/itch.png);
+    background-image: url(books%2520small/katinkagoldberg.png);
     background-size: cover;
     width: 65vw;
     height: 98vw;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 1rem;
 }
 
 .book_5 {
-    background-image: url(img/books/books/sameti.png);
+    background-image: url(books%2520small/sameti.png);
     background-size: cover;
     width: 65vw;
     height: 98vw;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 1rem;
+*/
 }
 
 /*---------Books design SLUT---------*/
