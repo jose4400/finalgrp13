@@ -1,0 +1,640 @@
+/*----------fælles(1-150)----------*/
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/*---------Tekst style---------*/
+
+h1 {
+    /*    position: absolute;*/
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 400;
+    /*    left: 40vw;*/
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3em;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.05rem;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+}
+
+.line_space {
+    line-height: 2;
+}
+
+#more_button {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+    /*    text-transform: uppercase;*/
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 300;
+    display: block;
+    margin: 0 auto;
+}
+
+/*---------Header design---------*/
+
+
+a {
+    visibility: visible;
+    text-decoration: none;
+
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    height: 4rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+
+header nav a {
+
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    color: #A25F67;
+}
+
+.header ul {
+    margin: 0;
+    padding-right: 20px;
+    list-style: none;
+    overflow: hidden;
+    background-color: white;
+}
+
+.header ul a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.header ul a:hover {}
+
+
+
+/*
+.header .logo {
+    float: left;
+    position: relative;
+    background-image: url(img/logo/NW_Logo_big_1920px.jpg);
+    width: 5vw;
+    height: 3vw;
+}
+*/
+
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.header .menu-icon {
+    padding: 28px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.header .menu-icon .nav-icon {
+    background: #333;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:before {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    transition: all .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:after {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    transition: all .2s ease-out;
+}
+
+.header .menu-btn {
+    display: none;
+
+}
+
+.header .menu-btn:checked ~ .menu {
+    max-height: 440px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+
+@media (min-width:760px) {
+
+    .header {
+        text-align: center;
+        padding-right: 20vw;
+        background-color: white;
+    }
+
+    .header ul {
+        padding-right: 250px;
+        background-color: white;
+    }
+
+    .header li {
+        float: left;
+    }
+
+    .header li a {
+        padding: 20px 10px;
+    }
+
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+        align-content: center;
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+
+    .header .logo {
+        float: left;
+        position: relative;
+        background-size: cover;
+        background-image: url(img/logo/NW_Logo_big_1920px.jpg);
+        width: 173px;
+        height: 71px;
+        padding-left: 250px;
+        z-index: 10;
+    }
+
+}
+
+
+/*---------Header design SLUT---------*/
+
+/*---------Landingpage design---------*/
+
+
+section {
+    margin: auto;
+    padding: 1rem;
+}
+
+#overskrift {
+    background-color: antiquewhite;
+}
+
+#splash {
+    height: 20vh;
+    background-color: #e6e6e6;
+    background-size: cover;
+}
+
+#splash .logo {
+    background-image: url(img/logo/NW_Gallery_center_big_white.png);
+    position: absolute;
+    background-size: cover;
+    width: 65vw;
+    height: 18vh;
+    left: 15vw;
+    top: 15vw;
+    align-content: center;
+}
+
+#news {}
+
+#news .col {
+    background-image: url(img/FB_CLOSE_Flyer.jpg);
+    position: relative;
+    background-size: cover;
+    width: 65vw;
+    height: 18vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#store {
+    background-color: #e6e6e6;
+
+}
+
+#store .top .col_narrow {
+    position: relative;
+    background-image: url(img/IMG_9248.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#books {}
+
+#books .col_narrow {
+    background-image: url(img/books/books/bogudennavn.png);
+    background-size: cover;
+    width: 65vw;
+    height: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#workshops {
+    background-color: #e6e6e6;
+}
+
+#workshops .col_top {
+    background-image: url(img/billeder_05_content/New_Final_%20FLYER_JH.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 18vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#about {}
+
+#about .col_top {
+    background-image: url(img/billeder_05_content/about_01.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 18wh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    background-color: #e6e6e6;
+}
+
+/*---------Landingpage design SLUT---------*/
+
+/*---------News design---------*/
+
+#overskrift_news {
+    width: 100%vw;
+    height: 15vh;
+    background-color: #e6e6e6;
+    background-size: cover;
+}
+
+
+#close .col_wide {
+    background-image: url(img/FB_CLOSE_Flyer.jpg);
+    position: relative;
+    background-size: cover;
+    width: 65vw;
+    height: 18vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kalender {
+    background-color: #e6e6e6;
+}
+
+#kalender .img_1 {
+    background-image: url(img/billeder_05_content/kalender_01.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kalender .img_2 {
+    background-image: url(img/billeder_05_content/kalender_02.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#kalender .img_3 {
+    background-image: url(img/billeder_05_content/kalender_03.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#new_program .col_top {
+    background-image: url(img/billeder_05_content/New_Final_%20FLYER_JH.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 16vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------News design SLUT---------*/
+
+/*---------Store design---------*/
+
+
+#overskrift_news {
+    width: 100%vw;
+    height: 15vh;
+    background-color: #e6e6e6;
+    background-size: cover;
+    top: 15vw;
+}
+
+#onlineshop .store_1 {
+    background-image: url(img/billeder_05_content/store_01.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#onlineshop .store_2 {
+    background-image: url(img/billeder_05_content/store_02.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#onlineshop .pic_cap p {
+    text-align: center;
+}
+
+#onlineshop button {
+    margin-left: auto;
+    margin-right: auto;
+    /*----Her skal køb knappen styles-----*/
+}
+
+
+#shop_in_store {
+    background-color: #e6e6e6;
+}
+
+#shop_in_store .img_1 {
+    background-image: url(img/billeder_05_content/1.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shop_in_store .img_2 {
+    background-image: url(img/billeder_05_content/2);
+    background-size: cover;
+    width: 65vw;
+    height: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shop_in_store .img_3 {
+    background-image: url(img/billeder_05_content/3);
+    background-size: cover;
+    width: 65vw;
+    height: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shop_in_store .img_4 {
+    background-image: url(img/billeder_05_content/4);
+    background-size: cover;
+    width: 65vw;
+    height: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shop_in_store .pic_cap p {
+    text-align: center;
+}
+
+
+#footer_store {
+    background-color: #ffffff;
+}
+
+/*---------Store design SLUT---------*/
+
+/*---------Books design---------*/
+
+
+#books_site {
+    background-image: url(img/galleribaggrund_1920x1080.svg);
+}
+
+.book_1 {
+    background-image: url(img/books/books/katinkagoldberg.png);
+    background-size: cover;
+    width: 65vw;
+    height: 98vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book_2 {
+    background-image: url(img/books/books/bogudennavn.png);
+    background-size: cover;
+    width: 65vw;
+    height: 43vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book_3 {
+    background-image: url(img/books/books/cyclops.png);
+    background-size: cover;
+    width: 65vw;
+    height: 98vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book_4 {
+    background-image: url(img/books/books/itch.png);
+    background-size: cover;
+    width: 65vw;
+    height: 98vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book_5 {
+    background-image: url(img/books/books/sameti.png);
+    background-size: cover;
+    width: 65vw;
+    height: 98vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------Books design SLUT---------*/
+
+
+/*---------Workshop design---------*/
+
+#workshop_site .img_1 {
+    background-image: url(img/billeder_05_content/New_Final_%20FLYER_JH.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 18vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#workshop_site .img_2 {
+    background-image: url(img/billeder_05_content/Flyer_workshop_Calin_Kruse_crop.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 18vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#workshop_site .img_3 {
+    background-image: url(img/billeder_05_content/work3.png);
+    background-size: cover;
+    width: 65vw;
+    height: 18vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------Workshop design SLUT---------*/
+/*---------About design---------*/
+
+.mid2 {
+    flex-direction: column;
+
+}
+
+.about_1 {
+    background-image: url(img/billeder_05_content/about_01.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 43vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_2 {
+    background-image: url(img/billeder_05_content/about_02.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 43vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_3 {
+    background-image: url(img/billeder_05_content/about_03.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 43vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_4 {
+    background-image: url(img/billeder_05_content/about_04.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 43vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_5 {
+    background-image: url(img/billeder_05_content/about_05.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 43vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_6 {
+    background-image: url(img/billeder_05_content/about_06.jpg);
+    background-size: cover;
+    width: 65vw;
+    height: 43vw;
+    margin-left: auto;
+    margin-right: auto;
+}
