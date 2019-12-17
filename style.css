@@ -1,7 +1,10 @@
 /*----------fælles(1-150)----------*/
 body {
+    background-color: #e6e6e6;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /*    position: absolute;*/
 }
 
 img {
@@ -244,8 +247,8 @@ header nav a {
 
 
 section {
-    margin: auto;
-    padding: 1rem;
+
+    /*    padding: 1rem;*/
 }
 
 #overskrift {
@@ -254,7 +257,7 @@ section {
 
 #splash {
     height: 20vh;
-    background-color: #e6e6e6;
+
     background-size: cover;
 }
 
@@ -282,10 +285,7 @@ section {
 
 }
 
-#store {
-    background-color: #e6e6e6;
-
-}
+#store {}
 
 #store .top .col_narrow {
     position: relative;
@@ -308,9 +308,7 @@ section {
     margin-right: auto;
 }
 
-#workshops {
-    background-color: #e6e6e6;
-}
+#workshops {}
 
 #workshops .col_top {
     background-image: url(img/billeder_05_content/New_Final_%20FLYER_JH.jpg);
@@ -333,9 +331,7 @@ section {
     margin-right: auto;
 }
 
-#footer {
-    background-color: #e6e6e6;
-}
+#footer {}
 
 /*---------Landingpage design SLUT---------*/
 
@@ -637,4 +633,123 @@ section {
     height: 43vw;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------SLOPES----------------------------*/
+
+
+
+
+h1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: -85px;
+    color: white;
+}
+
+.baggrundsfarve:first-child h1 {
+    top: 0;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    transform: skewY(5deg);
+}
+
+.baggrundsfarve {
+
+    transform: skewY(-5deg);
+    background-color: #e6e6e6;
+    z-index: 10;
+    padding: 50px;
+    position: relative;
+    top: -50px;
+    padding-bottom: 150px;
+
+
+}
+
+.sectionwrapper {}
+
+
+/*
+.baggrundsfarve:nth-child(odd) {
+    background-color: white;
+}
+*/
+
+.baggrundsfarve2 {
+    transform: skewY(-5deg);
+    background-color: white;
+    z-index: 10;
+    padding: 50px;
+    position: relative;
+    top: -50px;
+    padding-bottom: 150px;
+
 }
