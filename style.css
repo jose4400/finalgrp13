@@ -1,12 +1,17 @@
 /*----------fælles(1-150)----------*/
 body {
+    background-color: #e6e6e6;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /*    position: absolute;*/
 }
 
 img {
     width: 100%;
 }
+
+
 
 /*---------Tekst style---------*/
 
@@ -57,7 +62,7 @@ p {
     text-align: center;
     font-weight: 300;
     display: block;
-    margin: 0 auto;
+    /*    margin: auto;*/
 }
 
 /*---------Header design---------*/
@@ -74,7 +79,7 @@ header {
     background-color: transparent;
     position: fixed;
     width: 100%;
-    z-index: 3;
+    z-index: 11;
     height: 4rem;
     text-align: center;
     font-weight: 400;
@@ -244,8 +249,8 @@ header nav a {
 
 
 section {
-    margin: auto;
-    padding: 1rem;
+
+    /*    padding: 1rem;*/
 }
 
 #overskrift {
@@ -253,8 +258,8 @@ section {
 }
 
 #splash {
-    height: 20vh;
-    background-color: #e6e6e6;
+    height: 40vh;
+
     background-size: cover;
 }
 
@@ -277,15 +282,14 @@ section {
     background-size: cover;
     width: 65vw;
     height: 18vh;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 
 }
 
-#store {
-    background-color: #e6e6e6;
-
-}
+#store {}
 
 #store .top .col_narrow {
     position: relative;
@@ -293,8 +297,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 45vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 #books {}
@@ -304,21 +310,23 @@ section {
     background-size: cover;
     width: 65vw;
     height: 45vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
-#workshops {
-    background-color: #e6e6e6;
-}
+#workshops {}
 
 #workshops .col_top {
     background-image: url(img/billeder_05_content/New_Final_%20FLYER_JH.jpg);
     background-size: cover;
     width: 65vw;
     height: 18vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 
@@ -328,21 +336,29 @@ section {
     background-image: url(img/billeder_05_content/about_01.jpg);
     background-size: cover;
     width: 65vw;
+<<<<<<< HEAD
     height: 18vh;
+=======
+    height: 18vw;
+    /*
+>>>>>>> origin/master
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
-#footer {
-    background-color: #e6e6e6;
-}
+#footer {}
 
 /*---------Landingpage design SLUT---------*/
 
 /*---------News design---------*/
 
 #overskrift_news {
+<<<<<<< HEAD
     width: 100vw;
+=======
+    width: 100%;
+>>>>>>> origin/master
     height: 15vh;
     background-color: #e6e6e6;
     background-size: cover;
@@ -355,8 +371,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 18vh;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 #kalender {
@@ -368,8 +386,10 @@ section {
     background-size: cover;
     width: 200px;
     height: 200px;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 #kalender .img_2 {
@@ -377,8 +397,10 @@ section {
     background-size: cover;
     width: 200px;
     height: 200px;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 
 }
 
@@ -387,8 +409,10 @@ section {
     background-size: cover;
     width: 200px;
     height: 200px;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 #new_program .col_top {
@@ -396,8 +420,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 16vh;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 /*---------News design SLUT---------*/
@@ -406,7 +432,11 @@ section {
 
 
 #overskrift_news {
+<<<<<<< HEAD
     width: 100vw;
+=======
+    width: 100%;
+>>>>>>> origin/master
     height: 15vh;
     background-color: #e6e6e6;
     background-size: cover;
@@ -418,8 +448,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 65vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 #onlineshop .store_2 {
@@ -427,8 +459,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 65vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 #onlineshop .pic_cap p {
@@ -436,8 +470,10 @@ section {
 }
 
 #onlineshop button {
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
     /*----Her skal køb knappen styles-----*/
 }
 
@@ -451,8 +487,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 95vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 #shop_in_store .img_2 {
@@ -460,8 +498,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 95vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 #shop_in_store .img_3 {
@@ -469,8 +509,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 95vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 #shop_in_store .img_4 {
@@ -478,8 +520,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 95vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 #shop_in_store .pic_cap p {
@@ -536,7 +580,14 @@ section {
     background-image: url(books%2520small/bogudennavn.png) background-size: cover;
     width: 65vw;
     height: 98vw;
+<<<<<<< HEAD
     padding: 1rem;
+=======
+    /*
+    margin-left: auto;
+    margin-right: auto;
+*/
+>>>>>>> origin/master
 }
 
 .book_2 {
@@ -544,7 +595,14 @@ section {
     background-size: cover;
     width: 65vw;
     height: 43vw;
+<<<<<<< HEAD
     padding: 1rem;
+=======
+    /*
+    margin-left: auto;
+    margin-right: auto;
+*/
+>>>>>>> origin/master
 }
 
 .book_3 {
@@ -552,7 +610,14 @@ section {
     background-size: cover;
     width: 65vw;
     height: 98vw;
+<<<<<<< HEAD
     padding: 1rem;
+=======
+    /*
+    margin-left: auto;
+    margin-right: auto;
+*/
+>>>>>>> origin/master
 }
 
 .book_4 {
@@ -560,7 +625,14 @@ section {
     background-size: cover;
     width: 65vw;
     height: 98vw;
+<<<<<<< HEAD
     padding: 1rem;
+=======
+    /*
+    margin-left: auto;
+    margin-right: auto;
+*/
+>>>>>>> origin/master
 }
 
 .book_5 {
@@ -568,7 +640,15 @@ section {
     background-size: cover;
     width: 65vw;
     height: 98vw;
+<<<<<<< HEAD
     padding: 1rem;
+=======
+    /*
+    margin-left: auto;
+    margin-right: auto;
+*/
+}
+>>>>>>> origin/master
 
 }
 */
@@ -582,8 +662,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 18vh;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 #workshop_site .img_2 {
@@ -591,8 +673,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 18vh;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 #workshop_site .img_3 {
@@ -600,8 +684,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 18vh;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 /*---------Workshop design SLUT---------*/
@@ -617,8 +703,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 43vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 .about_2 {
@@ -626,8 +714,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 43vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 .about_3 {
@@ -635,8 +725,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 43vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 .about_4 {
@@ -644,8 +736,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 43vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 .about_5 {
@@ -653,8 +747,10 @@ section {
     background-size: cover;
     width: 65vw;
     height: 43vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
 }
 
 .about_6 {
@@ -662,6 +758,126 @@ section {
     background-size: cover;
     width: 65vw;
     height: 43vw;
+    /*
     margin-left: auto;
     margin-right: auto;
+*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------SLOPES----------------------------*/
+
+
+
+
+h1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: -85px;
+    color: black;
+
+}
+
+.baggrundsfarve:first-child h1 {}
+
+.content {
+    margin: 0;
+    padding: 0;
+    transform: skewY(5deg);
+}
+
+.baggrundsfarve {
+
+    transform: skewY(-5deg);
+    background-color: #e6e6e6;
+    z-index: 10;
+    padding: 50px;
+    position: relative;
+    top: -50px;
+    padding-bottom: 150px;
+
+
+}
+
+.sectionwrapper {}
+
+
+/*
+.baggrundsfarve:nth-child(odd) {
+    background-color: white;
+}
+*/
+
+.baggrundsfarve2 {
+    transform: skewY(-5deg);
+    background-color: white;
+    z-index: 10;
+    padding: 50px;
+    position: relative;
+    top: -50px;
+    padding-bottom: 150px;
+
 }
